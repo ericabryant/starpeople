@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.scss";
 import { v4 as uuidv4 } from "uuid";
 
-const url = "https://swapi.dev/api/people";
+const url = "https://swapi.dev/api/people/";
 const createCharacter = (name) => {
   const id = uuidv4();
   return {
